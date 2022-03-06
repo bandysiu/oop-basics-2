@@ -6,7 +6,8 @@ public abstract class Card {
     String cardHolderName;
     String cardNumber;
 
-    abstract double credit();
-    abstract double debit();
+    abstract void credit(double amount);
+
+    abstract void debit(double amount);
 
 }

@@ -1,6 +1,6 @@
 package It.itacademy.java.oop.basics3;
 
-public class InsufficientAtmFundsException extends RuntimeException{
+public class InsufficientAtmFundsException extends RuntimeException {
 
     public InsufficientAtmFundsException() {
     }

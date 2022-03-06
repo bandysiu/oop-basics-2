@@ -2,8 +2,8 @@ package It.itacademy.java.oop.basics3;
 
 public interface Atm {
 
-    void withdrawCredit();
+    void withdraw(Card card, double amount);
 
-    void withdrawDebit();
+    void deposit(Card card, double amount);
 
 }
